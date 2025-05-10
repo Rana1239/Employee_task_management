@@ -1,0 +1,208 @@
+{
+    "employees": [
+      {
+        "name": "Ali Khan",
+        "role": "Web Developer",
+        "email": "ali.khan@example.com",
+        "password": "password123",
+        "category": "employee",
+        "tasks": [
+          {
+            "title": "Build Landing Page",
+            "date": "20 Feb 2025",
+            "status": "In Progress",
+            "description": "Develop a responsive landing page using React and Tailwind CSS."
+          },
+          {
+            "title": "Fix Navbar Bug",
+            "date": "22 Feb 2025",
+            "status": "New",
+            "description": "Resolve the issue where the sidebar does not close properly on mobile."
+          },
+          {
+            "title": "Implement Dark Mode",
+            "date": "24 Feb 2025",
+            "status": "New",
+            "description": "Add dark mode support using Tailwind's dark theme."
+          },
+          {
+            "title": "Deploy Landing Page",
+            "date": "05 Mar 2025",
+            "status": "Completed",
+            "description": "Deploy the newly built landing page to the production server."
+          },
+          {
+            "title": "Optimize Images for Performance",
+            "date": "01 Mar 2025",
+            "status": "New",
+            "description": "Compress and optimize images to improve page speed."
+          },
+          {
+            "title": "Refactor Dashboard Code",
+            "date": "26 Feb 2025",
+            "status": "In Progress",
+            "description": "Improve code structure and remove redundant CSS classes."
+          },
+          {
+            "title": "Fix Sidebar Overlap Issue",
+            "date": "06 Mar 2025",
+            "status": "Failed",
+            "description": "Resolve the issue where the sidebar overlaps the main content in mobile view."
+          }
+        ]
+      },
+      {
+        "name": "Sara Ahmed",
+        "role": "Mobile Developer",
+        "email": "sara.ahmed@example.com",
+        "password": "password456",
+        "category": "employee",
+        "tasks": [
+          {
+            "title": "Implement Push Notifications",
+            "date": "18 Feb 2025",
+            "status": "Completed",
+            "description": "Integrate Firebase push notifications for both Android and iOS."
+          },
+          {
+            "title": "Optimize Mobile App Performance",
+            "date": "23 Feb 2025",
+            "status": "In Progress",
+            "description": "Reduce app loading time and improve smooth scrolling."
+          },
+          {
+            "title": "Fix UI Bugs in Profile Screen",
+            "date": "25 Feb 2025",
+            "status": "New",
+            "description": "Resolve misaligned elements and improve overall layout."
+          },
+          {
+            "title": "Implement Biometric Login",
+            "date": "02 Mar 2025",
+            "status": "New",
+            "description": "Add fingerprint and face recognition login for security."
+          }
+        ]
+      },
+      {
+        "name": "Usman Raza",
+        "role": "Backend Developer",
+        "email": "usman.raza@example.com",
+        "password": "password789",
+        "category": "employee",
+        "tasks": [
+          {
+            "title": "Optimize Database Queries",
+            "date": "25 Feb 2025",
+            "status": "In Progress",
+            "description": "Improve query performance in PostgreSQL to reduce API response time."
+          },
+          {
+            "title": "API Authentication",
+            "date": "26 Feb 2025",
+            "status": "New",
+            "description": "Implement JWT authentication in the backend API."
+          },
+          {
+            "title": "Develop User Roles & Permissions",
+            "date": "28 Feb 2025",
+            "status": "New",
+            "description": "Create role-based access control for users and admins."
+          },
+          {
+            "title": "Fix Payment Gateway Integration",
+            "date": "01 Mar 2025",
+            "status": "New",
+            "description": "Resolve issues related to failed transactions in the Stripe payment system."
+          },
+          {
+            "title": "Setup Redis Caching",
+            "date": "03 Mar 2025",
+            "status": "New",
+            "description": "Implement Redis caching for frequently accessed API data."
+          }
+        ]
+      },
+      {
+        "name": "Hina Fatima",
+        "role": "UI/UX Designer",
+        "email": "hina.fatima@example.com",
+        "password": "password321",
+        "category": "employee",
+        "tasks": [
+          {
+            "title": "Design Dashboard UI",
+            "date": "20 Feb 2025",
+            "status": "New",
+            "description": "Create a modern dashboard UI using Figma."
+          },
+          {
+            "title": "Redesign Login & Signup Screens",
+            "date": "22 Feb 2025",
+            "status": "New",
+            "description": "Update the UI for a better user experience."
+          },
+          {
+            "title": "Create Mobile App Prototype",
+            "date": "27 Feb 2025",
+            "status": "In Progress",
+            "description": "Build an interactive prototype for the mobile application."
+          },
+          {
+            "title": "Improve Accessibility Features",
+            "date": "04 Mar 2025",
+            "status": "New",
+            "description": "Ensure the application is accessible to users with disabilities."
+          }
+        ]
+      },
+      {
+        "name": "Omar Sheikh",
+        "role": "QA Engineer",
+        "email": "omar.sheikh@example.com",
+        "password": "password654",
+        "category": "employee",
+        "tasks": [
+          {
+            "title": "Test API Endpoints",
+            "date": "22 Feb 2025",
+            "status": "New",
+            "description": "Perform API testing using Postman and ensure all endpoints return correct responses."
+          },
+          {
+            "title": "Write Test Cases for Dashboard",
+            "date": "24 Feb 2025",
+            "status": "In Progress",
+            "description": "Create detailed test cases for the dashboard module."
+          },
+          {
+            "title": "Automate UI Testing",
+            "date": "28 Feb 2025",
+            "status": "New",
+            "description": "Set up automated UI testing using Selenium and Jest."
+          },
+          {
+            "title": "Penetration Testing",
+            "date": "05 Mar 2025",
+            "status": "New",
+            "description": "Conduct security tests to identify vulnerabilities in the application."
+          }
+        ]
+      }
+    ],
+    "admins": [
+      {
+        "name": "Zain Malik",
+        "email": "zain.malik@example.com",
+        "password": "adminpass1",
+        "category": "admin"
+      },
+      {
+        "name": "Ayesha Noor",
+        "email": "ayesha.noor@example.com",
+        "password": "adminpass2",
+        "category": "admin"
+      }
+    ]
+}
+  

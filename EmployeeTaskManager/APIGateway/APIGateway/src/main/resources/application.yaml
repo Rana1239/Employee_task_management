@@ -1,0 +1,35 @@
+server:
+  port: 8080
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+spring:
+  application:
+    name: APIGateway
+  cloud:
+    gateway:
+      globalcors:  # 👈 Global CORS configuration for all routes
+        cors-configurations:
+          '[/**]':  # Applies to all paths
+            allowedOrigins: "http://localhost:5173"  # Frontend URL (React/Angular)
+            allowedMethods:
+              - GET
+              - POST
+              - PUT
+              - DELETE
+              - OPTIONS  # Required for preflight requests
+            allowedHeaders: "*"  # Allows all headers (e.g., Authorization, Content-Type)
+            allowCredentials: true  # Needed for cookies/token-based auth
+            maxAge: 3600  # How long the CORS preflight response is cached (in seconds)
+      routes:  # Your existing route definitions
+        - id: AuthService
+          uri: lb://AUTHSERVICE
+          predicates:
+            - Path=/user/**
+        - id: TaskManagerService
+          uri: lb://TASKMANAGERSERVICE
+          predicates:
+            - Path=/task/**
